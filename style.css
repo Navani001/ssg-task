@@ -160,22 +160,53 @@ button
    position: absolute;
 }
 .trust
-{margin-left: 8%;
-  position: relative;
+{  margin-left: 8%;
+   position: relative;
    margin-top: 40px;
    background-color: rgb(196, 232, 244);
    width: 80%;
-   height: 400px;
+   height: 250px;
   
 }
 
 .TC 
 {
-   margin-top: 15px;
-   text-align: center;
+   
+   width: 100%;
+  
+   margin-left: 40%;
    position: absolute;
    margin-bottom: 50px;
-   width: 100%;
+   
    font-size: 30px;
    font-weight: bold;
+}
+.trust li{
+   display: inline-block; 
+   margin-left: 150px;
+   padding-top: 10px;
+   
+   
+}
+.trust li:hover
+{
+ color: rgb(87, 212, 29);
+   
+}
+.trust ul{
+   margin: 0;
+   list-style: none;
+  
+}
+.trust img{
+   margin-left: 25px;
+}
+.cen h1
+{
+   width: 100%;
+  text-align: center;
+}
+.cen
+{
+   text-align: center;
 }
